@@ -59,7 +59,7 @@ div.copyright{
 
 <?php
 // function to get webpage title
-ini_set('max_execution_time', 300);
+ini_set('max_execution_time', 1000);
 $a=$_GET['a'];
 $z=$a+999;
 $b=array();
