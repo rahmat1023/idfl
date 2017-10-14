@@ -59,6 +59,10 @@ div {
     background-color: #f2f2f2;
     padding: 20px;
 }
+div.copyright{
+    text-align: center;
+    padding: 10px;
+}
 </style>
 <body>
 	<h1>Index file.idfl.me</h1>
@@ -67,6 +71,9 @@ div {
     <input type="text" id="fname" name="a" placeholder="Awal.."><br>
     <input type="submit" value="Submit">
   </form>
+</div>
+<div class="copyright">
+  © Rahmat Alfianto 2017
 </div>
  
 </body>
