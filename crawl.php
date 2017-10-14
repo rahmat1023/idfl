@@ -124,8 +124,8 @@ echo '  <tr>
 }
 echo '</table></div>';
 
-$prev=$a-100;
-$next=$a+100;
+$prev=$a-1000;
+$next=$a+1000;
 echo ' <div class="nav"><a href="crawl.php?a='.$prev.'" class="button">Sebelum</a>';
 echo ' <a href="index.php?" class="button">Home</a>';
 echo ' <a href="crawl.php?a='.$next.'" class="button">Sesudah</a></div>';
